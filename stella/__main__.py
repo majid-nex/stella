@@ -23,7 +23,7 @@ G_START_TEXT = """ Hey, I'm alive """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+I'm anime theme zerotwo modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
  - /start: start the bot
@@ -50,7 +50,7 @@ USER_SETTINGS = {}
 
 GDPR = []
 
-STELLA_IMG = "https://telegra.ph/file/d5a2e552ba53871952547.jpg"
+Zerotwo_IMG = "https://telegra.ph/zertwo-01-27"
 
 for module_name in ALL_MODULES:
     imported_module = importlib.import_module("stella.modules." + module_name)
@@ -146,12 +146,12 @@ def send_start(bot, update):
         pass
 
     chat = update.effective_chat  # type: Optional[Chat]
-    text = "Hey there! I'm Stella."
+    text = "Hey there! I'm Zerotwo."
     text += "\nI'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of\nthe things I can help you with."
    
-    keyboard = [[InlineKeyboardButton(text="❓ Help", callback_data="help_back"),InlineKeyboardButton(text=" 👥 Join OT group.",url="https://telegram.dog/codglobalot")]]
+    keyboard = [[InlineKeyboardButton(text="❓ Help", callback_data="help_back"),InlineKeyboardButton(text=" 👥 Join OT group.",url="https://t.me/pikachusupport9")]]
     
-    update.effective_message.reply_photo(STELLA_IMG,text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_photo(Zerotwo_IMG,text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
                                             
         
 
