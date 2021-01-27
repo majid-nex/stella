@@ -6,7 +6,7 @@
 
 [![GitHub forks](https://img.shields.io/github/forks/anilchauhanxda/stella.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/anilchauhanxda/stella/network/) [![GitHub stars](https://img.shields.io/github/stars/anilchauhanxda/stella.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/anilchauhanxda/stella/stargazers/)
 
-[![stella](https://telegra.ph/file/d5a2e552ba53871952547.jpg)](https://heroku.com/deploy) 
+[![Zerotwo](https://telegra.ph/zertwo-01-27](https://heroku.com/deploy) 
 
 ### Python dependencies
 
